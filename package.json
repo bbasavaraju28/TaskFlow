@@ -1,0 +1,31 @@
+{
+  "name": "taskflow-cloud",
+  "version": "1.0.0",
+  "description": "A responsive task and habit manager using **Node.js + Express + MongoDB Atlas**. It uses the original palette: orange `#FA991C`, warm off-white `#FBF3F2`, teal `#1C768F`, and navy `#032539`.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbasavaraju28/TaskFlow.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/bbasavaraju28/TaskFlow/issues"
+  },
+  "homepage": "https://github.com/bbasavaraju28/TaskFlow#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "express-rate-limit": "^8.7.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.11.4"
+  }
+}
